@@ -10,10 +10,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5",
-        "midtrans/midtrans-php": "^2.5",
-        "nwidart/laravel-modules": "^8.2",
-        "veritrans/veritrans-php": "dev-master"
+        "laravel/tinker": "^2.5"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -27,8 +24,7 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "Modules\\": "Modules/"
+            "Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
